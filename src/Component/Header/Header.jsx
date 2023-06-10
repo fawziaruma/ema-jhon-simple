@@ -4,8 +4,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div>
-        <nav className="header">
+    <nav className="header">
             <img src={logo}></img>
 
             <div>
@@ -15,8 +14,6 @@ const Header = () => {
                 <a href="/login">Login</a>
             </div>
         </nav>
-
-    </div>
   )
 }
 
