@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { useState } from "react"
 import Product from "../Product/Product"
-
+import './Shop.css'
 
 export const Shop = () => {
     const [products , setProducts] = useState([])
